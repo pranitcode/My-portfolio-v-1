@@ -135,6 +135,8 @@
     margin-bottom:7px;
     margin-top:7px;
     font-size:9px;
+    margin-right: 0px;
+    text-align:right;
   }
 
   .project-content {
