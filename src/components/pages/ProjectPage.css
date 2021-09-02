@@ -34,7 +34,7 @@ html {
 @media only screen and (max-width: 512px) {
  
     .projectPage {
-        width: 100%;
+        width: 95%;
     }
     .gridContainer {
         display: grid;

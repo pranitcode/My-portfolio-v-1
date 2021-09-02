@@ -4,3 +4,25 @@
     grid-template-rows: 1fr 1fr ;
     grid-gap: 11px;
   }
+
+  @media only screen and (max-width: 720px) {
+   
+.moreproject {
+
+      background-color: rgb(20, 20, 20);
+      padding: 7px 12px;
+      font-size: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      border: 2px solid #0fccce;
+      width: 15%;
+    }
+    .moreproject a {
+      text-decoration: none;
+      color: #ccd6f6;
+      font-size: 12px;
+    }
+  
+  }

@@ -74,6 +74,34 @@
       grid-template-rows: 1fr 1fr 1fr;
       grid-gap: 11px;
     }
+    .blog-left-side h4{
+      margin-bottom:5px;
+      margin-top:7px;
+      color:#b8c2cc;
+      font-size: 9px;
+    }
+    .blog-right-side  h4 {
+      font-size:13px;
+      margin-bottom:7px;
+      margin-top:7px;
+      cursor: pointer;
+    }
+    .blog-right-side p {
+      color: #8795a1;
+      font-family:"Segoe UI";
+      font-size: 12px;
+    }
+
+    .Blog-card {
+      flex: 1;
+      display: flex;
+      justify-content: space-between;
+      background-color: #fff;
+      margin: 16px 0px;
+      padding: 6px 13px;
+      background-color: #000;
+      color: #b8c2cc;
+     }
     }
   
   

@@ -123,6 +123,31 @@
     grid-template-rows: 1fr 1fr;
     grid-gap: 11px;
   }
+  .right-side p {
+    font-size:12px;
+    margin-top:2px;
+  }
+   .right-side h4 {
+     font-size: 12px; ;
+   }
+  .left-side h4{
+    
+    margin-bottom:7px;
+    margin-top:7px;
+    font-size:9px;
+  }
+
+  .project-content {
+    flex: 1;
+    display: flex;
+     justify-content: space-between;
+     background-color: #fff;
+     margin: 16px 0px;
+     padding: 6px 13px;
+     background-color: #000;
+     color: #b8c2cc;
+   }
+
   }
 
 
