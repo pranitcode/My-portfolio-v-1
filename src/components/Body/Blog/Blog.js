@@ -2,7 +2,7 @@ import React from 'react';
 import Separator from '../../common/separator/separator';
 import { Blogdata } from '../../data/BlogData';
 import BlogCard from '../../pages/BlogCard';
-
+import {Link} from 'react-router-dom'
 import "./Blog.css";
 
 
@@ -28,7 +28,7 @@ const Blog = () => {
         </div>
             <br />
             <br />
-            <center><div className="moreproject"><a href="/blog">see more </a></div></center>
+            <center><div className="moreproject"><a href="#blog"><Link to='/blog'>see more</Link></a></div></center>
             <br />
             <br />
      </div>

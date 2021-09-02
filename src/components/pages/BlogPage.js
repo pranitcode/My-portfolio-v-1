@@ -13,7 +13,8 @@ const BlogPage = () => {
 
 
     return (
-        <div className="blogPage">
+        <div id="blog">
+             <div className="blogPage">
         <Header/>
             <div className="blogCSS">
                 <h1>Blog</h1>
@@ -23,6 +24,7 @@ const BlogPage = () => {
                     return <BlogCard blogcard={blogcard}/>
         })}
             <Contact />
+        </div>
         </div>
     )
 }
