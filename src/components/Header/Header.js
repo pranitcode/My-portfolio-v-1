@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import "./Header.css";
 import Mobile from './mobile/mobile';
 import Web from './web/web';
+import {Link} from"react-router-dom"
 
 
 
@@ -14,7 +15,7 @@ const [isOpen, setIsOpen] = useState(false)
     return (
         <div className="header">
 
-          <div className="logo">pranit</div>
+          <div className="logo"><Link style={{textDecoration:"none",color:"#0fccce"}} to="/">pranit</Link></div>
 
             <div className="menu">
                 <div className="web-menu">

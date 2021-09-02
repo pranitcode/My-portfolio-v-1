@@ -16,7 +16,7 @@
     
   }
   .blog-right-side  h4 {
-    font-size:21px;
+    font-size:16px;
     margin-bottom:7px;
     margin-top:7px;
     cursor: pointer;
@@ -41,6 +41,7 @@
     margin-bottom:5px;
     margin-top:7px;
     color:#b8c2cc;
+    font-size: 12px;
   }
 
 

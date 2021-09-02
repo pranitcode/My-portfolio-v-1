@@ -5,7 +5,7 @@ import App from './App';
 
 import reportWebVitals from './reportWebVitals';
 
-import { Link, Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 
 import ProjectPage from './components/pages/ProjectPage';
 import BlogPage from './components/pages/BlogPage';

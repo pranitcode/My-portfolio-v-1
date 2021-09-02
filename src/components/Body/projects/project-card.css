@@ -11,8 +11,7 @@
 
 .right-side {
   text-align: left;
-  
-}
+  }
 
 
 
@@ -33,6 +32,7 @@
   
   margin-bottom:7px;
   margin-top:7px;
+  font-size: 12px;
 }
 .project-links {
   margin-top: 6px;
@@ -43,30 +43,14 @@
     margin-right: 24px;
   }
   
-  .project-title {
-    font-size: 20px;
+  /* .project-title {
+    font-size: 17px;
     font-weight: 600;
     display: flex;
     justify-self: unset;
     margin-bottom: 10px;
-  }
+  } */
   
-  .project-tags {
-    display: flex;
-    max-width: 60%;
-    flex-wrap: wrap;
-  }
-
-  .tag {
-    padding: 4px 8px;
-    background-color: aquamarine;
-    border-radius: 4px;
-    margin-right: 6px;
-    margin-bottom: 4px;
-  }
-
-
-
   .project-links a {
     text-decoration: none;
     color: #8795a1;
@@ -79,16 +63,25 @@
     width: max-content;
     padding: 22px 0px 7px 0px;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 12px;
     margin-right: 8px;
 
   }
+  .link-button:hover {
+    color: #0fccce;
+  }
+  .link-button i:hover {
+    color: #0fccce;
+  }
+
+
+
   .link-button i {
     display: flex;
     align-items: center;
     margin-right: 4px;
     color: #b8c2cc;
-    font-size:13px;
+    font-size:12px;
   }
 
    .projectGrid {

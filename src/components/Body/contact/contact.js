@@ -5,6 +5,7 @@ import Separator from "../../common/separator/separator";
 
 function Contact() {
   return (
+  <div id="contact">
     <div className="contact">
       <Separator />
       <label className="section-title">Contact</label>
@@ -21,6 +22,7 @@ function Contact() {
         </div>
       </div>
     </div>
+</div>
   );
 }
 

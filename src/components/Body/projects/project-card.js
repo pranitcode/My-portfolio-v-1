@@ -5,8 +5,8 @@ function ProjectCard({ project }) {
     <div className="project-card">
       <div className="project-content">
         <div className="right-side">
-          <h4>sushilburagute.github.io</h4>
-          <p>My personal website made with React and Gatsby.</p>
+          <h4>{ project.project}</h4>
+          <p>{ project.about}</p>
           <div className="project-links">
           {project.demo && (
             <a className="project-link" href={project.demo}>
@@ -26,7 +26,7 @@ function ProjectCard({ project }) {
         </div>
         </div>
         <div className="left-side">
-         <h4>2020 June</h4>
+          <h4>{ project.date}</h4>
         </div>
       </div>
     </div>

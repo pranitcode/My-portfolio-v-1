@@ -5,7 +5,8 @@ import "./about.css";
 
 const About = () => {
     return (
-        <div className="about">
+        <div id="about">
+              <div  className="about">
             <div className="about-top">
                 <div className="about-info">
 
@@ -14,7 +15,7 @@ const About = () => {
                     <p className="about-para" >I am an Engineering Student and I have a keen interest in software development.
                         I'm a self-taught ReactJS front-end Developer.
                         I enjoy learning new languages and skills from online courses.Other than coding,
-                        I love to do music and  traveling
+                        I love to do music and  traveling.
                     </p>
 
                   </div>
@@ -27,6 +28,7 @@ const About = () => {
             </div>
             
         </div>
+      </div>
     )
 }
 

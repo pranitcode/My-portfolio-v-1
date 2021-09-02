@@ -10,9 +10,10 @@ html {
     margin: auto;
 }
 
-.blogCSS h1 {
+.blogCSS h4 {
 
     color: #0fccce;
+    font-size:22px;
 
 }
 .blogCSS p {

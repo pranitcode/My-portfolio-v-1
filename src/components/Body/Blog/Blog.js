@@ -16,7 +16,7 @@ const Blog = () => {
     <div>
         <div className="projects">
             <Separator/>
-            <label className="section-title">Projects</label>
+            <label className="section-title">Blog</label>
             <div className=".projectGridBlog">
                 {projdata.map((blogcard ) => {
                     return <BlogCard blogcard ={blogcard} />
