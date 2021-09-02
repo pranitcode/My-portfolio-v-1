@@ -3,7 +3,7 @@ import Separator from '../../common/separator/separator';
 import { ProjectData } from '../../data/projectdata';
 import ProjectCard from './project-card';
 import "./project.css";
-// import {Link} from  "react-router-dom"
+import {Link} from  "react-router-dom"
 
 
 
@@ -29,7 +29,7 @@ const Project = () => {
         </div>
             <br />
             <br />
-            <center><div className="moreproject"><a href="/project">see more </a></div></center>
+            <center><div className="moreproject"><a href="/project"><Link to="/project">see more</Link> </a></div></center>
             <br />
             <br />
      </div>
