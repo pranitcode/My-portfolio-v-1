@@ -1,0 +1,46 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 11px;
+}
+
+
+
+
+
+
+.projectPage {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    /* background-color: red; */
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .projectPage {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 512px) {
+ 
+    .projectPage {
+        width: 100%;
+    }
+    .gridContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 11px;
+    }
+
+}

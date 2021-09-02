@@ -1,0 +1,27 @@
+.projects {
+    display:flex;
+    flex-direction:column;
+    flex: 1;
+    /* height: auto; */
+    
+}
+
+.moreproject {
+
+    background-color: rgb(20, 20, 20);
+    padding: 8px 16px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #0fccce;
+    width: 10%;
+
+  }
+  .moreproject a {
+    text-decoration: none;
+    color: #ccd6f6;
+    font-size: 16px;
+  
+  }

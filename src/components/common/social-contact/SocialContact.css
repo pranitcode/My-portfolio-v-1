@@ -1,0 +1,37 @@
+.social-icon-div {
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   margin: 6px;
+   padding:6px;
+}
+.thisicon {
+    display: flex;
+    align-self: auto;
+    padding: 18px;
+    margin: 6px;
+    font-size:22px;
+  color: #ccd6f6;
+
+}
+
+.thisicon:hover {
+    color:#0fccce;
+}
+.social-icon-div a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 720px) {
+    .thisicon {
+        display: flex;
+        align-self: auto;
+        padding: 11px;
+        margin: 6px;
+        font-size:13px;
+        color: #ccd6f6;
+    
+    } 
+}

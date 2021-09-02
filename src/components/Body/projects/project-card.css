@@ -1,0 +1,146 @@
+.project-content {
+  flex: 1;
+  display: flex;
+   justify-content: space-between;
+   background-color: #fff;
+   margin: 16px 0px;
+   padding: 6px 22px;
+   background-color: #000;
+   color: #b8c2cc;
+ }
+
+.right-side {
+  text-align: left;
+  
+}
+
+
+
+.right-side  h4 {
+  font-size:16px;
+  margin-bottom:7px;
+  margin-top:7px;
+  cursor: pointer;
+}
+.right-side  h4:hover {
+  color: #0fccce;
+}
+.right-side p {
+  font-size:14px;
+  margin-top:2px;
+}
+.left-side h4{
+  
+  margin-bottom:7px;
+  margin-top:7px;
+}
+.project-links {
+  margin-top: 6px;
+  display: flex;
+}
+ 
+  .project-info {
+    margin-right: 24px;
+  }
+  
+  .project-title {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-self: unset;
+    margin-bottom: 10px;
+  }
+  
+  .project-tags {
+    display: flex;
+    max-width: 60%;
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    padding: 4px 8px;
+    background-color: aquamarine;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-bottom: 4px;
+  }
+
+
+
+  .project-links a {
+    text-decoration: none;
+    color: #8795a1;
+  }
+
+  .link-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 22px 0px 7px 0px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 8px;
+
+  }
+  .link-button i {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+    color: #b8c2cc;
+    font-size:13px;
+  }
+
+   .projectGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 11px;
+    padding-bottom: 1px;
+    
+  } 
+
+
+  @media only screen and (max-width: 720px) {
+    .project-photo {
+      width: 70%;
+    }
+    .project-card {
+      flex-direction: column-reverse;
+    }
+    .project-info {
+      margin-left: 0px;
+      margin-top: 12px;
+    }
+    .project-tags {
+      max-width: 90%;
+
+    }
+    .cardpara {
+      font-size: 14px;
+       line-height: 22px;
+       margin-top: 12px;
+       margin-bottom: 12px;
+       text-align: left;
+       margin-right:0px;
+   }
+   .projectGrid {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 11px;
+  }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
