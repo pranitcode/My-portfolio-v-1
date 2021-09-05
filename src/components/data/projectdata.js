@@ -12,7 +12,7 @@ export const ProjectData = [
   {
     show: true,
     id: '2',
-    project: "stock profit or loss",
+    project: "Stock profit or loss",
     github: "https://github.com/pranitcode/Stock-profit-loss-Mark-14-JS",
     demo: "https://stock-profit-or-loss-mark14.netlify.app/",
     about: "Its site for check profit or loss in stocks,build in Html css js",
