@@ -23,7 +23,7 @@ const Mobile = ({ isOpen, setIsOpen }) => {
                
            </div>
                 <div className="mobile-option">
-                <a href="#blog"><Link to="/blog">Blog</Link></a>
+                <Link to="/blog">Blog</Link>
                 
            </div>
     
