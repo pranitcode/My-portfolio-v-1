@@ -15,11 +15,11 @@ const Mobile = ({ isOpen, setIsOpen }) => {
             <div className="mobile-options">
                 
             <div className="mobile-option">
-                <a href="#about"><Link to="/">Home</Link></a>
+                <Link to="/">Home</Link>
             </div>
                 
                 <div className="mobile-option">
-                <a href="#projects"><Link to="/project">projects</Link></a>
+                <Link to="/project">projects</Link>
                
            </div>
                 <div className="mobile-option">

@@ -7,13 +7,13 @@ const Web = () => {
         <div className="web">
           
             <div className="web-option">
-            <a href="#about"><Link to="/">Home</Link></a>
+            <Link to="/">Home</Link>
            </div>
            <div className="web-option">
-           <a href="#projects"><Link to="/project">projects</Link></a>
+           <Link to="/project">projects</Link>
            </div>
            <div className="web-option">
-           <a href="#blog"><Link to="/blog">Blog</Link></a>
+           <Link to="/blog">Blog</Link>
            </div>
            <div className="web-option">
                 <a href="#contact">contact</a>
