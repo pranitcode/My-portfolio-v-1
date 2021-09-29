@@ -29,12 +29,39 @@ export const ProjectData = [
   },
   {
     show: false,
+    id: '3',
+    project: "Minions-Speak (mark6)",
+    github: "https://github.com/pranitcode/Minions-Speak",
+    demo: "https://minionspeakprnit.netlify.app/",
+    about: "Minions-Speak build in html-css-js",
+    date: "sep 2021"
+  },
+  {
+    show: false,
+    id: '3',
+    project: "My potfolio (mark7)",
+    github: "https://github.com/pranitcode/Ubbi-dubbi-translator-",
+    demo: "https://ubbidubbitranslater.netlify.app/",
+    about: "ubbidubbitranslater build in html-css-js",
+    date: "sep 2021"
+  },
+  {
+    show: false,
     id: '4',
     project: "animal-emoji-pedia (mark8)",
     github: "https://github.com/pranitcode/Animal-emoji-pedia",
     demo: "https://animal-emoji-pedia.netlify.app/",
-    about: "animal-emoji-pedia build in html-css-js",
+    about: "animal-emoji-pedia build in React js",
     date: "Aug 2021"
+  },
+  {
+    show: false,
+    id: '4',
+    project: "courses-recommendation app (mark9)",
+    github: "https://github.com/pranitcode/courses-recommendation",
+    demo: "https://courcessrecom.netlify.app/",
+    about: "courses-recommendation app. build in React js",
+    date: "sep 2021"
   },
   {
     show: false,
@@ -43,7 +70,7 @@ export const ProjectData = [
     github: "https://github.com/pranitcode/Cash-Register-Manager",
     demo: "https://cash-register-app-pranit.netlify.app/",
     about: "Cash-Register-Manager build in html-css-js",
-    date: "Aug 2021"
+    date: "sep 2021"
   },
 
   {
@@ -53,7 +80,7 @@ export const ProjectData = [
     github: "https://github.com/pranitcode/IsyourBirthdaylucky",
     demo: "https://isyourbirthdayluckypranitmark11.netlify.app/",
     about: "Is your birthday lucky build in html-css-js",
-    date: "Aug 2021"
+    date: "sep 2021"
   },
 
 
