@@ -29,7 +29,7 @@ export const ProjectData = [
   },
   {
     show: false,
-    id: '3',
+    id: '4',
     project: "Minions-Speak (mark6)",
     github: "https://github.com/pranitcode/Minions-Speak",
     demo: "https://minionspeakprnit.netlify.app/",
@@ -38,8 +38,8 @@ export const ProjectData = [
   },
   {
     show: false,
-    id: '3',
-    project: "My potfolio (mark7)",
+    id: '5',
+    project: "ubbidubbitranslater (mark7)",
     github: "https://github.com/pranitcode/Ubbi-dubbi-translator-",
     demo: "https://ubbidubbitranslater.netlify.app/",
     about: "ubbidubbitranslater build in html-css-js",
@@ -47,7 +47,7 @@ export const ProjectData = [
   },
   {
     show: false,
-    id: '4',
+    id: '6',
     project: "animal-emoji-pedia (mark8)",
     github: "https://github.com/pranitcode/Animal-emoji-pedia",
     demo: "https://animal-emoji-pedia.netlify.app/",
@@ -56,7 +56,7 @@ export const ProjectData = [
   },
   {
     show: false,
-    id: '4',
+    id: '7',
     project: "courses-recommendation app (mark9)",
     github: "https://github.com/pranitcode/courses-recommendation",
     demo: "https://courcessrecom.netlify.app/",
@@ -65,7 +65,7 @@ export const ProjectData = [
   },
   {
     show: false,
-    id: '4',
+    id: '8',
     project: "Cash-Register-Manager(mark10)",
     github: "https://github.com/pranitcode/Cash-Register-Manager",
     demo: "https://cash-register-app-pranit.netlify.app/",
@@ -75,7 +75,7 @@ export const ProjectData = [
 
   {
     show: false,
-    id: '1',
+    id: '9',
     project: "Is your birthday lucky (mark11)",
     github: "https://github.com/pranitcode/IsyourBirthdaylucky",
     demo: "https://isyourbirthdayluckypranitmark11.netlify.app/",
@@ -86,7 +86,7 @@ export const ProjectData = [
 
   {
     show: false,
-    id: '1',
+    id: '10',
     project: "fun with a triangle (mark12)",
     github: "https://github.com/pranitcode/FunWithTriangles",
     demo: "https://funwithtrianglemark12pranit.netlify.app/",
@@ -96,7 +96,7 @@ export const ProjectData = [
 
   {
     show: true,
-    id: '1',
+    id: '11',
     project:"Birthaday Date Palindrome Check (mark 13)",
     github: "https://github.com/pranitcode/Birthaday-Date-Palindrome-Check-",
     demo: "https://birthday-date-palindrom-check.netlify.app/",
@@ -105,7 +105,7 @@ export const ProjectData = [
   },
   {
     show: true,
-    id: '2',
+    id: '12',
     project: "Stock profit or loss (mark14)",
     github: "https://github.com/pranitcode/Stock-profit-loss-Mark-14-JS",
     demo: "https://stock-profit-or-loss-mark14.netlify.app/",
