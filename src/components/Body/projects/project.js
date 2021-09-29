@@ -29,7 +29,7 @@ const Project = () => {
         </div>
             <br />
             <br />
-            <center><div className="moreproject"><a href="/project"><Link to="/project">see more</Link> </a></div></center>
+            <center><div className="moreproject"><Link to="/project">see more</Link> </div></center>
             <br />
             <br />
      </div>
