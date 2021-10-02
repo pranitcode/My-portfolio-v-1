@@ -39,10 +39,10 @@ export const ProjectData = [
   {
     show: false,
     id: '5',
-    project: "ubbidubbitranslater (mark7)",
-    github: "https://github.com/pranitcode/Ubbi-dubbi-translator-",
-    demo: "https://ubbidubbitranslater.netlify.app/",
-    about: "ubbidubbitranslater build in html-css-js",
+    project: "Yodatranslater (mark7)",
+    github: "https://github.com/pranitcode/yodatranslater",
+    demo: "https://yodatranslaterpranit.netlify.app/",
+    about: "yodatranslater build in html-css-js",
     date: "sep 2021"
   },
   {
