@@ -4,7 +4,7 @@ export const Blogdata = [
         id: 1,
         BlogName: "My First Google Chrome Extension.(mark 15)",
         AboutBlog: "It's blog about How I created chrome extension",
-        Date: "2021 sep",
+        Date: "2021",
         url:"https://pranitcode.hashnode.dev/my-first-google-chrome-extension"
     },
     {
