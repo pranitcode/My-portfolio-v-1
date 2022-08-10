@@ -7,12 +7,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-
-
-
-
-  /* background-color: hsl(210deg, 30%, 8%); */
   background-color:#0E141B;
 
 }
@@ -22,4 +16,17 @@ code {
     monospace;
 }
 
+::-webkit-scrollbar {
+width: 1.4rem;
+}
 
+::-webkit-scrollbar-track {
+  background-color:#0E141B;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:#617BEA;
+  border-radius:1rem;
+  border:.5rem solid transparent;
+  background-clip: content-box;
+}

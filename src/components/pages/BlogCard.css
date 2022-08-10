@@ -80,10 +80,10 @@
          text-align: left;
          margin-right:0px;
      }
-     .projectGridBlog {
+     .GridBlog {
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr ;
       grid-gap: 11px;
     }
     .blog-left-side h4{

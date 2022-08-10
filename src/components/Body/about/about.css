@@ -10,12 +10,11 @@
 }
 .about-para {
     font-size:16px;
-    /* color:#8795a1; */
-    /* color:#DEDFE1; */
+
     color:#Fbfbfb;
 
 
-font-family:'Poppins' ;
+
     text-align: left;
    line-height:24x;
    font-weight:400;
@@ -60,12 +59,17 @@ font-family:'Poppins' ;
     }
     .about-para {
         font-size:16px;
-        color:#8795a1;
+        color:#Fbfbfb;
         text-align: left;
        line-height:24x;
        font-weight:400;
-       padding-right: 0px;
-       margin-right: 11px;
+      
+       padding-left: 12px;
+       padding-right:12px;
+
+    
+       margin: 0 auto;
+       width: 340px;
 }
     
 }

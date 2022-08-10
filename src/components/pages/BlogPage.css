@@ -35,10 +35,23 @@ html {
     .blogPage {
         width: 90%;
     }
+
+    .GridBlog {
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 3px;
+      }
 }
 
 @media only screen and (max-width: 512px) {
   .blogPage {
         width: 95%;
     }
+    .GridBlog {
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 3px;
+      }
 }

@@ -13,10 +13,7 @@
  }
 
 
- .projIMG {
-/* border-radius: 50%; */
-/* border: 2px solid red; */
- }
+ 
 
  .projIMG img {
 border-radius: 3px;
@@ -173,10 +170,13 @@ height: 100%;
      justify-content: space-between;
      background-color: #fff;
      margin: 16px 0px;
-     padding: 6px 13px;
-     background-color: #000;
-     color: #b8c2cc;
+     padding: 10px 13px 6px 13px;
+     background-color:#1E262F;
+     /* color: #b8c2cc; */
    }
+
+
+
 
   }
 

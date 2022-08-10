@@ -9,19 +9,19 @@
    
 .moreproject {
 
-      background-color: rgb(20, 20, 20);
+      background-color: #0E141B;
       padding: 7px 12px;
       font-size: 12px;
       display: flex;
       justify-content: center;
       align-items: center;
       border-radius: 8px;
-      border: 2px solid #0fccce;
+      border: 2px solid #617BFF;
       width: 15%;
     }
     .moreproject a {
       text-decoration: none;
-      color: #ccd6f6;
+      color:#ffffff;
       font-size: 12px;
     }
   
