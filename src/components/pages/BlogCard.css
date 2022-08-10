@@ -2,11 +2,12 @@
     flex: 1;
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
     margin: 16px 0px;
     padding: 6px 22px;
-    background-color: #000;
-    color: #b8c2cc;
+    background-color: #1E262F;
+    /* color: #b8c2cc; */
+    border-radius:12px;
+
    }
 
 
@@ -22,27 +23,38 @@
     cursor: pointer;
   }
   .blog-right-side  h4:hover {
-    color: #0fccce;
+    color: #594D91;
   }
   .iconblog {
       font-size: 14px;
   }
   .blog-right-side p {
-    color: #8795a1;
-    font-family:"Segoe UI";
+    color: #7e8c9a;
+    /* font-family:"Segoe UI"; */
+    font-weight:500;
+    font-size:17px;
   }
 
   .blog-right-side a{
       text-decoration: none;
-      color: #ccd6f6;
+      color: #ffff;
       
   }
   .blog-left-side h4{
     margin-bottom:5px;
     margin-top:7px;
-    color:#b8c2cc;
+    color:#ffff;
     font-size: 12px;
   }
+
+  .GridBlog {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 11px;
+  }
+
+
 
 
     @media only screen and (max-width: 720px) {

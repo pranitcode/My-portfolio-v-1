@@ -2,11 +2,26 @@
   flex: 1;
   display: flex;
    justify-content: space-between;
-   background-color: #fff;
    margin: 16px 0px;
-   padding: 6px 22px;
-   background-color: #1e1e1e;
-   color: #b8c2cc;
+   padding: 10px 15px 6px 15px;
+   background-color:#1E262F;
+   border-radius: 12px;
+   /* color: #b8c2cc; */
+   /* /* height: 350px; */
+   /* width: 300px;  */
+   font-family: 'Nunito';
+ }
+
+
+ .projIMG {
+/* border-radius: 50%; */
+/* border: 2px solid red; */
+ }
+
+ .projIMG img {
+border-radius: 3px;
+height: 100%;
+  width: 100%;
  }
 
 .right-side {
@@ -37,23 +52,34 @@
 .project-links {
   margin-top: 6px;
   display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: end;
+}
+
+.projTwoLinks {
+  display: flex;
+  color:#ffffff;
+  font-weight: 600;
+
 }
  
+.projNUM {
+  margin-bottom: 4px;
+  color:#ffffff;
+  font-weight: 600;
+  font-size: 16px;
+}
   .project-info {
     margin-right: 24px;
   }
   
-  /* .project-title {
-    font-size: 17px;
-    font-weight: 600;
-    display: flex;
-    justify-self: unset;
-    margin-bottom: 10px;
-  } */
+
   
-  .project-links a {
+  .projTwoLinks a {
     text-decoration: none;
     color: #8795a1;
+    font-size: 16px;
   }
 
   .link-button {
@@ -63,15 +89,17 @@
     width: max-content;
     padding: 22px 0px 7px 0px;
     border-radius: 4px;
-    font-size: 12px;
+    /* font-size: 12px; */
     margin-right: 8px;
+    color: #FFFFFF;
+    font-weight: 600;
 
   }
   .link-button:hover {
-    color: #0fccce;
+    color:#2B5CFF;
   }
   .link-button i:hover {
-    color: #0fccce;
+    color: #2B5CFF;
   }
 
 
@@ -80,7 +108,7 @@
     display: flex;
     align-items: center;
     margin-right: 4px;
-    color: #b8c2cc;
+    color: #ffffff;
     font-size:12px;
   }
 

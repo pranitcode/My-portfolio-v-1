@@ -18,19 +18,18 @@ const ProjectPage = () => {
 
         <div className="projectPage">
             <Header />
-            <div className="blogCSS">
-                <h4>Projects</h4>
-              <p>Collection of my Projects.</p>  
+            <div className="projcss">
+                <span>HTMl & CSS Projects.</span> 
+                <span>15 Projects</span>
             </div>
+
+
         <div className="gridContainer">
         {data.map((project) => {
-                    return <ProjectCard project={project}/>
+        return <ProjectCard project={project}/>
         })}
-                
-
-            </div>
-            <Contact />
-    
+        </div>
+        <Contact />
         </div>
     )
 }

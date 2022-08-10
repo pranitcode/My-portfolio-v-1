@@ -15,7 +15,7 @@ const [isOpen, setIsOpen] = useState(false)
     return (
         <div className="header">
 
-          <div className="logo"><Link style={{textDecoration:"none",color:"#0fccce"}} to="/">pranit</Link></div>
+          <div className="logo"><Link style={{textDecoration:"none",color:"#617BFF"}} to="/">pranit</Link></div>
 
             <div className="menu">
                 <div className="web-menu">

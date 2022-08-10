@@ -34,7 +34,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 80%;
-    color:#8795a1;
+    color:#ffff;
   }
   @media only screen and (max-width: 720px) {
     .work-card {

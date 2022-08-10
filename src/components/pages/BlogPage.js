@@ -19,10 +19,19 @@ const BlogPage = () => {
             <div className="blogCSS">
                 <h4>Blog</h4>
               <p>I write about things I learn in Web Development </p>  
-            </div>
-        {data.map((blogcard) => {
+                </div>
+                
+
+                <div className="GridBlog">
+
+                {data.map((blogcard) => {
                     return <BlogCard blogcard={blogcard}/>
-        })}
+                })}
+                </div>
+                
+
+
+
             <Contact />
         </div>
         </div>

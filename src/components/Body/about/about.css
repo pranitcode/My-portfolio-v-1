@@ -3,20 +3,26 @@
 
 }
 .about h1 {
-    color: #ccd6f6;
-    font-family:Kanit, sans-serif;
+    color: #DCDFE1;
+    font-family:'Kanit', sans-serif;
     text-align: left;
-    
+    /* #CCD6F6 */
 }
 .about-para {
-    font-size:19px;
-    color:#8795a1;
+    font-size:16px;
+    /* color:#8795a1; */
+    /* color:#DEDFE1; */
+    color:#Fbfbfb;
+
+
+font-family:'Poppins' ;
     text-align: left;
    line-height:24x;
    font-weight:400;
    /* padding-right:1px; */
    margin-right: 122px;
 }
+
 
 .about-top {
      display: flex;

@@ -15,5 +15,21 @@ export const Blogdata = [
         Date: "2021 sep",
         url:"https://pranitcode.hashnode.dev/understand-git-command"
     },
+    {
+        show: true,
+        id: 3,
+        BlogName: "Understand git command.",
+        AboutBlog: "About git and github",
+        Date: "2021 sep",
+        url:"https://pranitcode.hashnode.dev/understand-git-command"
+    },
+    {
+        show: true,
+        id: 4,
+        BlogName: "Understand git command.",
+        AboutBlog: "About git and github",
+        Date: "2021 sep",
+        url:"https://pranitcode.hashnode.dev/understand-git-command"
+    },
     
 ]

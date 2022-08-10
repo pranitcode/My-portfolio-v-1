@@ -10,13 +10,13 @@ const Web = () => {
             <Link to="/">Home</Link>
            </div>
            <div className="web-option">
-           <Link to="/project">projects</Link>
+           <Link to="/project">Projects</Link>
            </div>
            <div className="web-option">
            <Link to="/blog">Blog</Link>
            </div>
            <div className="web-option">
-                <a href="#contact">contact</a>
+                <a href="#contact">Contact</a>
            </div>
            
         </div>

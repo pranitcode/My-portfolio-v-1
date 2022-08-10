@@ -9,7 +9,7 @@
     padding:18px 12px;
     display: flex;
     flex-direction: column;
-    color: #0fccce;
+    color: #ffffff;
 }
 
 .close-icon {
@@ -38,7 +38,7 @@
 .mobile-option a {
     text-decoration: none;
     display: flex;
-    color: black;
-    color: #0fccce;
+    /* color: black; */
+    color: #ffffff;
 
 }

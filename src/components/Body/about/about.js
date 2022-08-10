@@ -12,15 +12,13 @@ const About = () => {
 
                     <h1>👋Hay I'am Pranit.</h1>
                   
-                    <p className="about-para" >I am an Engineering Student and I have a keen interest in software development.
-                        I'm a self-taught ReactJS front-end Developer.
-                        I enjoy learning new languages and skills from online courses.Other than coding,
-                        I love to do music and  traveling.
-                    </p>
+              <p className="about-para" >
+                I am a Full-Stack Developer⚡. I am passionate learner 💡 who's always willing to learn and work across technologies and domains .
+                I love to explore new technologies 🔍  and leverage them to solve real-life problems. ✨ Apart from that i love to 🌏 traval and sing songs. 💻 </p>
 
                   </div>
                 <div className="about-photo">
-                    <img src={require("../../../assets/mypic3.png").default} className="picture" alt="" />
+                    <img src={require("../../../assets/mypic5.png").default} className="picture" alt="" />
                 </div>
             </div>
             <div className="abouut-bottom">

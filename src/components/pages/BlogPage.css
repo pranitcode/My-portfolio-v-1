@@ -12,7 +12,7 @@ html {
 
 .blogCSS h4 {
 
-    color: #0fccce;
+    color: #ffff;
     font-size:22px;
 
 }
@@ -22,7 +22,12 @@ html {
 }
 
 
-
+.GridBlog {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 11px;
+  }
 
 
 
