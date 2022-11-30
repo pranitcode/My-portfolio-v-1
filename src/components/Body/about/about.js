@@ -14,7 +14,7 @@ const About = () => {
                   
               <p className="about-para" >
                 I am a Full-Stack Developer⚡. I am passionate learner 💡 who's always willing to learn and work across technologies and domains .
-                I love to explore new technologies 🔍  and leverage them to solve real-life problems. ✨ Apart from that i love to 🌏 traval and sing songs. 💻 </p>
+                I love to explore new technologies 🔍  and leverage them to solve real-life problems. ✨ Apart from that i love to 🌏 traval and sing. 💻 </p>
 
                   </div>
                 <div className="about-photo">

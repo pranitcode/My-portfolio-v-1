@@ -4,9 +4,6 @@ import Mobile from './mobile/mobile';
 import Web from './web/web';
 import {Link} from"react-router-dom"
 
-
-
-
 const Header = () => {
 
 const [isOpen, setIsOpen] = useState(false)
@@ -18,9 +15,11 @@ const [isOpen, setIsOpen] = useState(false)
           <div className="logo"><Link style={{textDecoration:"none",color:"#617BFF"}} to="/">pranit</Link></div>
 
             <div className="menu">
+
                 <div className="web-menu">
-                    <Web/>
+                  <Web/>
                 </div>
+
                 <div className="mobile-menu">
                     <div onClick={() => setIsOpen(!isOpen)}>
                          <i className="fas fa-bars menu-icon"></i>
