@@ -13,7 +13,7 @@ const About = () => {
                     <h1>👋Hay I'am Pranit.</h1>
                   
               <p className="about-para" >
-                I am a Full-Stack Developer⚡. I am passionate learner 💡 who's always willing to learn and work across technologies and domains .
+                I am a Full-Stack Developer⚡ I am passionate learner 💡 who's always willing to learn and work across technologies and domains .
                 I love to explore new technologies 🔍  and leverage them to solve real-life problems. ✨ Apart from that i love to 🌏 traval and sing. 💻 </p>
 
                   </div>
